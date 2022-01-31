@@ -79,8 +79,6 @@ export const dtsPlugin = (opts: DTSPluginOpts = {}) =>
                     (m) => console.log(m),
                     true,
                 );
-
-                return {};
             });
 
             // finish compilation
